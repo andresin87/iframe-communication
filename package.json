@@ -4,6 +4,9 @@
   "description": "Two way iframe communication",
   "main": "index.js",
   "scripts": {
+    "start:children": "cd ./children-iframe-com && npm run start",
+    "start:parent": "cd ./parent-iframe-com && npm run start",
+    "start": "npm run start:children & npm run start:parent",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
