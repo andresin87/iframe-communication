@@ -1,0 +1,19 @@
+{
+  "name": "iframe-communication",
+  "version": "1.0.0",
+  "description": "Two way iframe communication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresin87/iframe-communication.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andresin87/iframe-communication/issues"
+  },
+  "homepage": "https://github.com/andresin87/iframe-communication#readme"
+}
