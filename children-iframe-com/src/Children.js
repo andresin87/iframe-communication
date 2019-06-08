@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Children.css';
 
 // addEventListener support for IE8
 const bindEvent = (element, eventName, eventHandler) => {
@@ -10,7 +10,7 @@ const bindEvent = (element, eventName, eventHandler) => {
   }
 };
 
-export default class App extends React.Component {
+export default class Children extends React.Component {
   componentDidMount() {
     // Send a message to the parent
     const sendMessage = function (msg) {

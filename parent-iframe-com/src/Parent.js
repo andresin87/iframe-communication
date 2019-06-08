@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './Parent.css';
 
 // addEventListener support for IE8
 const bindEvent = (element, eventName, eventHandler) => {
@@ -8,9 +8,9 @@ const bindEvent = (element, eventName, eventHandler) => {
   } else if (element.attachEvent) {
     element.attachEvent('on' + eventName, eventHandler);
   }
-}
+};
 
-export default class App extends React.Component {
+export default class Parent extends React.Component {
   componentDidMount() {
     const iframeSource = 'http://localhost:3001/';
     const iframeId = 'the_iframe';
@@ -48,7 +48,7 @@ export default class App extends React.Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="Parent">
         <h1>Parent Window</h1>
         <p>Send Message: <button id="message_button">Hi there iframe</button></p>
         <p>Got Message:</p>
