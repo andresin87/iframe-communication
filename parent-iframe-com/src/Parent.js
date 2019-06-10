@@ -61,9 +61,9 @@ export default class Parent extends React.Component {
         <h1>Parent Window</h1>
         <p>Send Message: <button id="message_button">Hi there iframe</button></p>
         <p>Got Message:</p>
-        <div id="results"></div>
+        <div id="results">null</div>
         <p>Bounds:</p>
-        <div id="bounds"></div>
+        <div id="bounds">null</div>
         <br/>
         <div id="iframe-wrapper" />
       </div>
